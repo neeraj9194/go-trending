@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/andygrunwald/go-trending"
+	"github.com/neeraj9194/go-trending"
 )
 
 func ExampleTrending_GetProjects() {

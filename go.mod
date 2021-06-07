@@ -1,4 +1,4 @@
-module github.com/andygrunwald/go-trending
+module github.com/neeraj9194/go-trending
 
 go 1.13
 

@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/andygrunwald/go-trending
+go_import_path: github.com/neeraj9194/go-trending
 
 sudo: false
 
