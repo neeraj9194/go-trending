@@ -1,8 +1,8 @@
 # go-trending
 
-[![GoDoc](https://godoc.org/github.com/andygrunwald/go-trending?status.svg)](https://godoc.org/github.com/andygrunwald/go-trending)
+[![GoDoc](https://godoc.org/github.com/neeraj9194/go-trending?status.svg)](https://godoc.org/github.com/neeraj9194/go-trending)
 [![Build Status](https://travis-ci.org/andygrunwald/go-trending.svg?branch=master)](https://travis-ci.org/andygrunwald/go-trending)
-[![Go Report Card](https://goreportcard.com/badge/github.com/andygrunwald/go-trending)](https://goreportcard.com/report/github.com/andygrunwald/go-trending)
+[![Go Report Card](https://goreportcard.com/badge/github.com/neeraj9194/go-trending)](https://goreportcard.com/report/github.com/neeraj9194/go-trending)
 
 A package to retrieve [trending repositories](https://github.com/trending) and [developers](https://github.com/trending/developers) from Github written in [golang](https://golang.org/).
 
@@ -23,21 +23,21 @@ This package were inspired by [rochefort/git-trend](https://github.com/rochefort
 
 It is go gettable
 
-    $ go get github.com/andygrunwald/go-trending
+    $ go get github.com/neeraj9194/go-trending
 
 (optional) to run unit / example tests:
 
-    $ cd $GOPATH/src/github.com/andygrunwald/go-trending
+    $ cd $GOPATH/src/github.com/neeraj9194/go-trending
     $ go test -v
 
 ## API
 
-Please have a look at the [GoDoc documentation](https://godoc.org/github.com/andygrunwald/go-trending) for a detailed API description.
+Please have a look at the [GoDoc documentation](https://godoc.org/github.com/neeraj9194/go-trending) for a detailed API description.
 
 ## Examples
 
 Further a few examples how the API can be used.
-A few more examples are available in the [GoDoc examples section](https://godoc.org/github.com/andygrunwald/go-trending#pkg-examples).
+A few more examples are available in the [GoDoc examples section](https://godoc.org/github.com/neeraj9194/go-trending#pkg-examples).
 
 ### List trending repositories of today for all languages
 
@@ -46,7 +46,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/andygrunwald/go-trending"
+	"github.com/neeraj9194/go-trending"
 	"log"
 )
 
@@ -76,7 +76,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/andygrunwald/go-trending"
+	"github.com/neeraj9194/go-trending"
 	"log"
 )
 
@@ -106,7 +106,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/andygrunwald/go-trending"
+	"github.com/neeraj9194/go-trending"
 	"log"
 )
 
@@ -131,7 +131,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/andygrunwald/go-trending"
+	"github.com/neeraj9194/go-trending"
 	"log"
 )
 

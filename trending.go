@@ -43,7 +43,7 @@ const (
 //		package main
 //
 //		import (
-//			"github.com/andygrunwald/go-trending"
+//			"github.com/neeraj9194/go-trending"
 //		)
 //
 //		func main() {
@@ -197,7 +197,7 @@ func (t *Trending) GetProjects(time, language string) ([]Project, error) {
 		repositoryName := strings.TrimSpace(splittedName[1])
 
 		//pp.Println("owner: ", owner)
-		//pp.Println("repositoryName: ", repositoryName)		
+		//pp.Println("repositoryName: ", repositoryName)
 
 		address, exists := s.Find(".h3.lh-condensed > a").First().Attr("href")
 		projectURL := t.appendBaseHostToPath(address, exists)
@@ -278,8 +278,7 @@ func (t *Trending) GetTrendingLanguages() ([]Language, error) {
 func (t *Trending) generateLanguages(mainSelector string) ([]Language, error) {
 	var languages []Language
 
-// $("#languages-menuitems > .select-menu-item-text")
-
+	// $("#languages-menuitems > .select-menu-item-text")
 
 	// Generate the URL to call
 	u, err := t.generateURL(modeLanguages, "", "")
